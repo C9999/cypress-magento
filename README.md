@@ -1,4 +1,6 @@
-# Bem vindos ao Automação Loja Magneto
+# Automação Cypress em Loja Magneto
+
+***
 
 # Por que decidi automatizar usando o Cypress ?
 É uma ferramenta de teste de frontend desenvolvida para a web.
