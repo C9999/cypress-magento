@@ -3,6 +3,8 @@ const { defineConfig } = require('cypress')
 module.exports = defineConfig({
   projectId: 't9ec12',
   video: true,
+  videoUploadOnPasses: false,
+  videosFolder: 'cypress/videos-fail',
   fixturesFolder: false,
   scrollBehavior: 'center',
   viewportWidth: 1280,

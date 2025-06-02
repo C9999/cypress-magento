@@ -6,10 +6,9 @@
   "scripts": {
     "open": "cypress open",
     "local_browser": "cypress run --headed",
-    "headless": "cypress run --headless --browser electron",
+    "headless": "cypress run --spec \"cypress/integration/**/*.feature\" --headless --browser electron",
     "report": "node cucumber-html-report.js",
     "test": "npm run headless && npm run report",
-
     "home": "cypress run --spec \"cypress/integration/home.feature\" --headless --browser electron",
     "compras": "cypress run --spec \"cypress/integration/compras.feature\" --headless --browser electron"
         
