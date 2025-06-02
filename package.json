@@ -1,0 +1,35 @@
+{
+  "name": "cypress_qa",
+  "version": "1.5.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open": "cypress open",
+    "local_browser": "cypress run --headed",
+    "headless": "cypress run --headless --browser electron",
+    "report": "node cucumber-html-report.js",
+    "test": "npm run headless && npm run report",
+
+    "home": "cypress run --spec \"cypress/integration/home.feature\" --headless --browser electron",
+    "segmentos": "cypress run --spec \"cypress/integration/segmentos.feature\" --headless --browser electron"
+        
+  },
+  "author": "Carlos Araújo",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cucumber-html-reporter": "^5.5.0",
+    "cypress": "^8.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.0",
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/reports/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+include:
+  - project: devops/gitlab-cicd
+    file: templates/pipelines/integration_tests.yml
+    ref: master
+variables:
+  test_language: "javascript" # javascript or java 
+  test_project: ""
+  release_url: ""
+  teamsChannelId: "

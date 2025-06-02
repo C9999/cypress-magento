@@ -1,0 +1,132 @@
+[
+  {
+    "keyword": "Funcionalidade",
+    "name": "Home - página inicial",
+    "line": 2,
+    "id": "home---página-inicial",
+    "tags": [],
+    "uri": "home.feature",
+    "elements": [
+      {
+        "id": "home---página-inicial;acessar-a-home-da-loja-magento",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Acessar a home da loja Magento",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que eu acesso a loja",
+            "result": {
+              "status": "passed",
+              "duration": 87728000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 6,
+            "name": "estou na página inicial",
+            "result": {
+              "status": "passed",
+              "duration": 262000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 7,
+            "name": "vejo as informações gerais da loja",
+            "result": {
+              "status": "passed",
+              "duration": 133000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "home---página-inicial;visualizar-menu-da-loja",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Visualizar menu da loja",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 10,
+            "name": "que estou na página inicial",
+            "result": {
+              "status": "passed",
+              "duration": 3473000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 11,
+            "name": "as informações gerais estiverem carregadas",
+            "result": {
+              "status": "passed",
+              "duration": 78000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 12,
+            "name": "deve visualizar o menu principal",
+            "result": {
+              "status": "passed",
+              "duration": 42000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "home---página-inicial;itens-mais-vendidos",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Itens mais vendidos",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 15,
+            "name": "que estou na página inicial",
+            "result": {
+              "status": "passed",
+              "duration": 353000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 16,
+            "name": "as informações gerais estiverem carregadas",
+            "result": {
+              "status": "passed",
+              "duration": 94000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 17,
+            "name": "deve visualizar a sessão de itens mais vendidos",
+            "result": {
+              "status": "passed",
+              "duration": 168000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
