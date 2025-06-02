@@ -1,6 +1,6 @@
-# Bem vindos ao Automação Loja Magneto Mais - área não logada
+# Bem vindos ao Automação Loja Magneto
 
-# Por que decidimos automatizar usando o Cypress ?
+# Por que decidi automatizar usando o Cypress ?
 É uma ferramenta de teste de frontend desenvolvida para a web.
 
 O Cypress pode testar qualquer coisa que seja executada em um navegador, e como o projeto da loja usa  Magneto nesse momento faz sentido usarmos o Cypress. Além dele permitir a escrita desses tipos de testes:
