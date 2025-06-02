@@ -11,7 +11,7 @@
     "test": "npm run headless && npm run report",
 
     "home": "cypress run --spec \"cypress/integration/home.feature\" --headless --browser electron",
-    "segmentos": "cypress run --spec \"cypress/integration/segmentos.feature\" --headless --browser electron"
+    "compras": "cypress run --spec \"cypress/integration/compras.feature\" --headless --browser electron"
         
   },
   "author": "Carlos Araújo",

@@ -22,7 +22,7 @@
             "name": "que eu acesso a loja",
             "result": {
               "status": "passed",
-              "duration": 87728000000
+              "duration": 6665000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "estou na página inicial",
             "result": {
               "status": "passed",
-              "duration": 262000000
+              "duration": 218000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "vejo as informações gerais da loja",
             "result": {
               "status": "passed",
-              "duration": 133000000
+              "duration": 110000000
             }
           }
         ]
@@ -62,7 +62,7 @@
             "name": "que estou na página inicial",
             "result": {
               "status": "passed",
-              "duration": 3473000000
+              "duration": 779000000
             }
           },
           {
@@ -72,17 +72,17 @@
             "name": "as informações gerais estiverem carregadas",
             "result": {
               "status": "passed",
-              "duration": 78000000
+              "duration": 49000000
             }
           },
           {
             "arguments": [],
             "keyword": "Então ",
             "line": 12,
-            "name": "deve visualizar o menu principal",
+            "name": "devo visualizar o menu principal",
             "result": {
               "status": "passed",
-              "duration": 42000000
+              "duration": 17000000
             }
           }
         ]
@@ -102,7 +102,7 @@
             "name": "que estou na página inicial",
             "result": {
               "status": "passed",
-              "duration": 353000000
+              "duration": 1027000000
             }
           },
           {
@@ -112,17 +112,17 @@
             "name": "as informações gerais estiverem carregadas",
             "result": {
               "status": "passed",
-              "duration": 94000000
+              "duration": 56000000
             }
           },
           {
             "arguments": [],
             "keyword": "Então ",
             "line": 17,
-            "name": "deve visualizar a sessão de itens mais vendidos",
+            "name": "devo visualizar a sessão de itens mais vendidos",
             "result": {
               "status": "passed",
-              "duration": 168000000
+              "duration": 103000000
             }
           }
         ]

@@ -1,5 +1,5 @@
 node_modules
-# screenshots
-# reports
-# videos
+screenshots
+reports
+videos
 .DS_Store

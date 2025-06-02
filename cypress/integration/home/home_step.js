@@ -16,10 +16,10 @@ When(/^as informações gerais estiverem carregadas$/, () => {
 	home.InfosHomePage
 });
 
-Then(/^deve visualizar o menu principal$/, () => {
+Then(/^devo visualizar o menu principal$/, () => {
 	home.MenuView
 });
 
-Then(/^deve visualizar a sessão de itens mais vendidos$/, () => {
+Then(/^devo visualizar a sessão de itens mais vendidos$/, () => {
 	home.HotSellersSesseion
 });

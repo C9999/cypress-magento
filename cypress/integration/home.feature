@@ -9,9 +9,9 @@ Então vejo as informações gerais da loja
 Cenário: Visualizar menu da loja
 Dado que estou na página inicial
 Quando as informações gerais estiverem carregadas
-Então deve visualizar o menu principal
+Então devo visualizar o menu principal
 
 Cenário: Itens mais vendidos
 Dado que estou na página inicial
 Quando as informações gerais estiverem carregadas
-Então deve visualizar a sessão de itens mais vendidos
+Então devo visualizar a sessão de itens mais vendidos
