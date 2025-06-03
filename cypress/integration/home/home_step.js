@@ -21,5 +21,5 @@ Then(/^devo visualizar o menu principal$/, () => {
 });
 
 Then(/^devo visualizar a sessão de itens mais vendidos$/, () => {
-	home.HotSellersSesseion
+	home.HotSellersSession
 });

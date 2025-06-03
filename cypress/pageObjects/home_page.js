@@ -31,7 +31,7 @@ class Home {
     cy.get('#ui-id-2').should('exist')
   }
 
-  get HotSellersSesseion() {
+  get HotSellersSession() {
     cy.window().then((win) => {win.scrollBy(0, 800); });
     cy.get(this.itensMenu).should('exist')
     cy.contains(this.itemD).true
