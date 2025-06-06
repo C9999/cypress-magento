@@ -22,7 +22,7 @@
             "name": "que eu acesso a loja",
             "result": {
               "status": "passed",
-              "duration": 7651000000
+              "duration": 7487000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "estou na página inicial",
             "result": {
               "status": "passed",
-              "duration": 117000000
+              "duration": 140000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "vejo as informações gerais da loja",
             "result": {
               "status": "passed",
-              "duration": 148000000
+              "duration": 100000000
             }
           }
         ]
@@ -62,7 +62,7 @@
             "name": "que estou na página inicial",
             "result": {
               "status": "passed",
-              "duration": 724000000
+              "duration": 712000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "as informações gerais estiverem carregadas",
             "result": {
               "status": "passed",
-              "duration": 37000000
+              "duration": 56000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "devo visualizar o menu principal",
             "result": {
               "status": "passed",
-              "duration": 166000000
+              "duration": 19000000
             }
           }
         ]
@@ -102,7 +102,7 @@
             "name": "que estou na página inicial",
             "result": {
               "status": "passed",
-              "duration": 1670000000
+              "duration": 1777000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "as informações gerais estiverem carregadas",
             "result": {
               "status": "passed",
-              "duration": 52000000
+              "duration": 31000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "devo visualizar a sessão de itens mais vendidos",
             "result": {
               "status": "passed",
-              "duration": 92000000
+              "duration": 83000000
             }
           }
         ]
