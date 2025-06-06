@@ -17,3 +17,23 @@ And(/^clico no produto desejado$/, () => {
 Then(/^vejo as informações sobre o produto$/, () => {
 	buy.InfoProductAPage
 });
+
+Given(/^que estou vendo as informações sobre o produto$/, () => {
+	home.ShopPage
+	home.HomePage
+	home.HotSellersSession
+	buy.SelectProductA
+	buy.InfoProductAPage
+});
+
+When(/^seleciono o SKU$/, () => {
+	buy.SelectSKU
+});
+
+And(/^adiciono ao carrinho$/, () => {
+	buy.addCart
+});
+
+Then(/^vejo a notificação que o produto foi adicionado carrinho$/, () => {
+	buy.CartNotification
+});
